@@ -4,7 +4,6 @@ import Rating from '../Rating/Rating';
 import BookmarksContext from '../BookmarksContext';
 import config from '../config';
 import './BookmarkItem.css';
-import PropTypes from 'prop-types';
 
 function deleteBookmarkRequest(bookmarkId, cb) {
   fetch(config.API_ENDPOINT + `/${bookmarkId}`, {
