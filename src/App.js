@@ -7,7 +7,6 @@ import BookmarksContext from "./BookmarksContext";
 import Nav from "./Nav/Nav";
 import config from "./config";
 import "./App.css";
-import Rating from "./Rating/Rating";
 
 class App extends Component {
   state = {
